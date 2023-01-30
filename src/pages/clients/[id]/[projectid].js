@@ -7,7 +7,7 @@ export default function ClientProject() {
 
 	return (
 		<div>
-			<h1>Client Project</h1>
+			<h1>Client Project {router.query.projectid}</h1>
 		</div>
 	);
 }
